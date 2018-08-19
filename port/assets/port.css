@@ -54,7 +54,6 @@ header .container {
 
 .name,
 .nav {
-    /* I hate floats, so I avoid them whenever I can */
     display: inline-block;
     vertical-align: middle;
     margin: 0;
@@ -161,7 +160,7 @@ img.headshot {
 }
 
 .portfolio-item:nth-child(even) {
-    margin-left: 25px;
+    margin-left: auto;
 }
 
 .portfolio-item:hover {
